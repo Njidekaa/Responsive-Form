@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: flex-start;
+  background-image: url(./bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%) ;
+  font-size: 16px;
+  flex-flow: wrap;
+  
+}
+
+.outline {
+  align-content: center;
+  justify-content: center;
+  margin: 10%;
+  margin-top: 15%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 10px
+}
+h1 {
+  margin-bottom: 5%;
+}
+
+.outline2 {
+  font-size: 12px;
+}
+
+.fulldetails{
+    align-content: center;
+    justify-content: center;
+    margin: 10%;
+    margin-top: 7%;
+    font-family: "Poppins", sans-serif;
+    
+}
+.fulldetails2{
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 5px 10px 10px #979292;
+}
+
+.input{
+    padding: 12px 20px;
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 3px;
+    box-sizing:border-box;
+    border: 1px solid hsl(249, 19%, 74%);
+
+}
+
+.input:focus{
+  outline-color: hsl(248, 32%, 49%) ;
+}
+
+.details{
+    
+    width: 100%;
+    padding: 10px 30px;
+    min-height: 10px;
+}
+
+#btn1{
+width: 100%;
+padding: 20px 30px;
+margin-bottom: 10px;
+border: none;
+background-color:hsl(248, 32%, 49%);
+color: white;
+border-radius: 5px;
+font-size: 11px;
+box-shadow: 5px 5px 5px #888888;
+}
+
+#btn2{
+  width: 100%;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  background-color:hsl(154, 59%, 51%)
+  ;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer
+}
+#btn2:hover{
+  background-color:hsl(154, 55%, 70%)
+  ;
+
+}
+
+.para{
+ font-size: 10px;
+ color: hsl(248, 32%, 49%);
+ margin-bottom: 20px;
+}
+a{
+  color: hsl(0, 100%, 74%) ;
+  text-decoration: none;
+}
+
+
+
+/* media quaries*/
+
+@media screen and (max-width: 375px) {
+  main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background-image: url(./bg-intro-mobile.png);
+    font-size: 15px;
+    flex-flow: wrap;
+   
+  }
+  #btn1{
+    padding: 25px 25px;
+    font-size: 15px;
+  }
+  .outline2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .para{
+    text-align: center
+  }
+  
+  }
+  
+  
